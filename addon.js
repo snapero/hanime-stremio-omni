@@ -74,9 +74,9 @@ const manifest = {
     },
     // Series catalogs
     {
-      type: constants.contentTypes.MOVIE,
+      type: constants.contentTypes.SERIES,
       name: 'Hanime Series',
-      id: constants.catalogCategories.MOVIE,
+      id: constants.catalogCategories.SERIES,
       extra: constants.catalogExtras
     }
   ],
