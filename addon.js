@@ -43,45 +43,45 @@ const manifest = {
   catalogs: [
     // Anime catalogs
     {
-      type: constants.contentTypes.ANIME,
+      type: constants.contentTypes.MOVIE,
       name: 'Hanime',
       id: constants.catalogCategories.HANIME,
       extra: constants.catalogExtras
     },
     {
-      type: constants.contentTypes.ANIME,
+      type: constants.contentTypes.MOVIE,
       name: 'Hanime Recent',
       id: constants.catalogCategories.RECENT,
       extra: constants.catalogExtras
     },
     {
-      type: constants.contentTypes.ANIME,
+      type: constants.contentTypes.MOVIE,
       name: 'Hanime Most Likes',
       id: constants.catalogCategories.MOST_LIKES,
       extra: constants.catalogExtras
     },
     {
-      type: constants.contentTypes.ANIME,
+      type: constants.contentTypes.MOVIE,
       name: 'Hanime Most Views',
       id: constants.catalogCategories.MOST_VIEWS,
       extra: constants.catalogExtras
     },
     {
-      type: constants.contentTypes.ANIME,
+      type: constants.contentTypes.MOVIE,
       name: 'Hanime Newest',
       id: constants.catalogCategories.NEWEST,
       extra: constants.catalogExtras
     },
     // Series catalogs
     {
-      type: constants.contentTypes.SERIES,
+      type: constants.contentTypes.MOVIE,
       name: 'Hanime Series',
-      id: constants.catalogCategories.SERIES,
+      id: constants.catalogCategories.MOVIE,
       extra: constants.catalogExtras
     }
   ],
   resources: ['catalog', 'stream', 'meta'],
-  types: [constants.contentTypes.ANIME, constants.contentTypes.SERIES],
+  types: [constants.contentTypes.MOVIE, constants.contentTypes.SERIES],
   idPrefixes: [constants.addonPrefix],
   name: config.addon.name,
   icon: buildFullUrl(config.addon.icon),
